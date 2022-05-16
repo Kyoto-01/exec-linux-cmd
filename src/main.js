@@ -13,7 +13,7 @@ app.use(morgan('tiny'));
 
 app.get('/info/cpu', async (req, res) => {
     const cpuInfos = await lib.get_cpu_infos();
-    res.send(cpuInfos.replace('64', '*-*'));
+    res.send(cpuInfos);
 });
 
 app.get('/info/memory', async (req, res) => {
