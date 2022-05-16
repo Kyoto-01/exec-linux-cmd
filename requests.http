@@ -1,0 +1,5 @@
+### CPU
+GET http://localhost:3000/info/cpu
+
+### MEMORY
+GET http://localhost:3000/info/memory
